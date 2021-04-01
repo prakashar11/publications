@@ -8,19 +8,27 @@
   * [Engineering](#engineering)
   * [Education](#education)
   * [Mobile security](#mobile-security)
+  * [Programming](#programming)
   * [Side channels](#side-channels)
   * [Threat analysis](#threat-analysis)
 * [Datasets](#datasets)
 * [Podcasts](#podcasts)
 * [Security Reviews](#security-reviews)
+  * [Technology products](#technology-products)
+  * [Cloud-native](#cloud-native)
+  * [Smart contracts](#smart-contracts)
+  * [Blockchain protocols and software](#blockchain-protocols-and-software)
 * [Workshops](#workshops)
 
-## Academic Papers
+## Academic papers
 
 | Paper Title | Venue | Publication Date |
 | --- | --- | --- |
+| [Echidna: effective, usable, and fast fuzzing for smart contracts](papers/echidna_issta2020.pdf) | [ISSTA 2020](https://conf.researchr.org/home/issta-2020) | July 2020 |
+| [Automated Grammar Extraction via Semantic Labeling of Parsers](presentations/Semantic%20Labeling%20of%20Parsers) | [LangSec 2020](http://spw20.langsec.org/) | May 2020 |
 | [What are the Actual Flaws in Important Smart Contracts?](papers/smart_contract_flaws_fc2020.pdf) | [FC 2020](https://fc20.ifca.ai/program.html) | Feb 2020 |
 | [Echidna: A Practical Smart Contract Fuzzer](papers/echidna_fc_poster.pdf) | [FC 2020](https://fc20.ifca.ai/program.html) | Feb 2020 |
+| [RSA GTFO](papers/rsagtfo.pdf) | [PoC\|\|GTFO 0x20](https://www.sultanik.com/pocorgtfo/#0x20) | Jan 2020 |
 | [Manticore: Symbolic Execution for Binaries and Smart Contracts](papers/manticore.pdf) | [ASE 2019](https://2019.ase-conferences.org/) | Jun 2019 |
 | [Slither: A Static Analysis Framework For Smart Contracts](papers/wetseb19.pdf) | [WETSEB 2019](http://www.agilegroup.eu/wetseb2019/) | May 2019 |
 | [Toward Smarter Vulnerability Discovery Using Machine Learning](papers/ceo.pdf) | [AISec 2018](http://aisec2018.icsi.berkeley.edu/aisec2018/index.html) | Oct 2018 |
@@ -28,18 +36,20 @@
 | [DeepState - Symbolic Unit Testing for C and C++](papers/deepstate-bar18.pdf) | [BAR 2018](https://www.ndss-symposium.org/ndss2018/cfp-ndss2018-bar/) | Feb 2018 |
 | [Cyber-Deception and Attribution in Capture-the-Flag Exercises](papers/deception_attribution_ctf.pdf) | [FOSINT-SI 2015](http://fosint-si.cpsc.ucalgary.ca/2015/) | Jul 2015 |
 
-## Conference Presentations
+## Conference presentations
 
 ### Automated bug finding and exploitation
 
 | Presentation Title | Author(s) | Year |
 | --- | --- | --- |
-| [Differential fuzzing, or: how to find bugs when (ground) truth isn't real](presentations/Differential%20fuzzing,%20or_%20how%20to%20find%20bugs%20when%20%28ground%29%20truth%20isn't%20real) | William Woodruff | 2020 |
+| [How to find bugs when (ground) truth isn't real](presentations/Differential%20fuzzing,%20or_%20how%20to%20find%20bugs%20when%20%28ground%29%20truth%20isn't%20real) | William Woodruff | 2020 |
+| [The Treachery of Files and Two New Tools that Tame It](presentations/The%20Treachery%20of%20Files) | Evan Sultanik | 2019 |
 | [Symbolically Executing a Fuzzy Tyrant](presentations/Symbolically%20Executing%20a%20Fuzzy%20Tyrant) | Stefan Edwards | 2019 |
-| [It's coming from inside the house: kernel space fault injection with KRF](presentations/It%27s%20coming%20from%20inside%20the%20house%3A%20kernel%20space%20fault%20injection%20with%20KRF) | William Woodruff | 2019 |
+| [Kernel space fault injection with KRF](presentations/It%27s%20coming%20from%20inside%20the%20house%3A%20kernel%20space%20fault%20injection%20with%20KRF) | William Woodruff | 2019 |
 | [Binary Symbolic Execution With KLEE-Native](presentations/Binary%20Symbolic%20Execution%20With%20KLEE-Native) | Sai Vegasena | 2019 |
 | [Going sicko mode on the Linux Kernel](presentations/Going%20sicko%20mode%20on%20the%20Linux%20Kernel) | William Woodruff | 2019 |
 | [Vulnerability Modeling with Binary Ninja](presentations/Vulnerability%20Modeling%20with%20Binary%20Ninja) | Josh Watson | 2018 |
+| [File Polyglottery; or, This PoC is also a picture of cats](presentations/The%20Treachery%20of%20Files) | Evan Sultanik | 2017 |
 | [Be a binary rockstar](https://vimeo.com/215511922#t=27m33s) | Sophia D'Antoine | 2017 |
 | [Symbolic Execution for Humans](presentations/Symbolic%20Execution%20for%20Humans) | Mark Mossberg | 2017 |
 | [The spirit of the 90s is still alive in Brooklyn](presentations/The%20spirit%20of%20the%2090s%20is%20alive%20in%20Brooklyn) | Ryan Stortz, Sophia D'Antoine | 2017 |
@@ -54,6 +64,9 @@
 
 | Presentation Title | Author(s) | Year |
 | --- | --- | --- |
+| [Safely integrating with ERC20 tokens](presentations/Safely%20integrating%20with%20ERC20%20tokens) | Josselin Feist | 2021 |
+| [Detecting transaction replacement attacks with Manticore](presentations/Detecting%20transaction%20replacement%20attacks%20with%20Manticore) | Sam Moelius | 2020 |
+| [Fantastic Bugs and How to Squash Them; or, the Crimes of Solidity](presentations/Anatomy%20of%20an%20unsafe%20programming%20language) | Evan Sultanik | 2019 |
 | [SlithIR: High-Precision Security Analysis with an IR for Solidity](presentations/SlithIR%2C%20An%20Intermediate%20Representation%20of%20Solidity%20to%20enable%20High%20Precision%20Security%20Analysis) | Josselin Feist | 2019 |
 | [Slither: A Static Analysis Framework for Smart Contracts](presentations/Slither:%20A%20Static%20Analysis%20Framework%20for%20Smart%20Contracts) | Josselin Feist | 2019 |
 | [What blockchain got right](presentations/What%20blockchain%20got%20right) | Dan Guido | 2019 |
@@ -105,6 +118,12 @@
 | [Return to the 100 Acre Woods](presentations/Return%20to%20the%20100%20Acre%20Woods) | Stefan Edwards | 2019 |
 | [Swimming with the kubectl fish](presentations/Swimming%20with%20the%20kubectl%20fish) | Stefan Edwards | 2019 |
 
+### Machine Learning
+
+| Presentation Title | Author(s) | Year |
+| --- | --- | --- |
+| [PrivacyRaven: Comprehensive Privacy Testing for Deep Learning](presentations/PrivacyRaven:%20Comprehensive%20Privacy%20Testing%20for%20Deep%20Learning) | Suha Hussain | 2020 |
+
 ### Mobile security
 
 | Presentation Title | Author(s) | Year |
@@ -113,6 +132,14 @@
 | [Modern iOS Application Security](presentations/Modern%20iOS%20Application%20Security) | Sophia D'Antoine, Dan Guido | 2016 |
 | [The Mobile Exploit Intelligence Project](presentations/The%20Mobile%20Exploit%20Intelligence%20Project) | Dan Guido | 2012 |
 | [A Tale of Mobile Threats](presentations/A%20Tale%20of%20Mobile%20Threats) | Vincenzo Iozzo | 2012 |
+
+### Programming
+
+| Presentation Title | Author(s) | Year |
+| --- | --- | --- |
+| [Python internals - let's talk about dicts](presentations/Python%20internals%20-%20lets%20talk%20about%20dicts) | Dominik Czarnota | 2019 |
+| [Low-level debugging with Pwndbg](presentations/Low-level%20debugging%20with%20Pwndbg) | Dominik Czarnota | 2018 |
+| [Insecure Things to Avoid in Python](presentations/Insecure%20Things%20to%20Avoid%20in%20Python) | Dominik Czarnota | 2018 |
 
 ### Side channels
 
@@ -137,7 +164,15 @@
 
 | Podcast | Guest | Date | Topic(s) |
 | --- | --- | --- | --- |
-| [Risky Business 580](https://risky.biz/RB580/) | Dan Guido | Apr 2020 | Mobile voting | 
+| [How to onboard yourself as the first People Leader](https://employeecycle.com/podcast/how-to-onboard-yourself-as-the-first-people-leader-with-hannah-hanks/) | Hannah Hanks | Mar 2021 | People Operations |
+| [Risky Business 614](https://risky.biz/RB614/) | Dan Guido | Feb 2021 | iVerify |
+| [Building Better Systems #6](https://www.youtube.com/watch?v=wT-AmR7wtI8) | Dan Guido | Jan 2021 | What blockchain got right |
+| [WCBS 880](https://www.radio.com/podcasts/wcbs-880-small-business-spotlight-32986/pandemic-gap-year-leads-to-career-development-322317063) | Dan Guido | Sep 2020 | Gap years and intern hiring |
+| [Risky Business 594](https://risky.biz/RB594/) | Dan Guido | Aug 2020 | Apple security |
+| [Epicenter 346](https://epicenter.tv/episodes/346) | Dan Guido | Jun 2020 | Smart contract security |
+| [Absolute AppSec 97](https://www.youtube.com/watch?v=GvNXxOc30lM) | Stefan Edwards | May 2020 | Threat modeling |
+| [Unchained 170](https://unchainedpodcast.com/defi-security-with-so-many-hacks-will-it-ever-be-safe/) | Dan Guido | May 2020 | DeFi security |
+| [Risky Business 580](https://risky.biz/RB580/) | Dan Guido | Apr 2020 | Mobile voting |
 | [Absolute AppSec 91](https://www.youtube.com/watch?v=HlGcJRhgNG0) | Stefan Edwards | Apr 2020 | Mobile voting |
 | [Zero Knowledge 122](https://www.zeroknowledge.fm/122) | Ben Perez | Mar 2020 | Cryptography reviews, ZKPs |
 | [Changelog](https://changelog.com/podcast/377) | Dan Guido | Jan 2020 | AlgoVPN |
@@ -149,12 +184,12 @@
 | [Absolute AppSec 60](https://www.youtube.com/watch?v=BZ0U7K0IxNQ) | Stefan Edwards | May 2019 | Android, programming languages |
 | [Absolute AppSec 55](https://www.youtube.com/watch?v=Q0pKAlGLFtY) | Stefan Edwards | Apr 2019 | Security testing |
 | [Hashing it Out 35](https://thebitcoinpodcast.com/hashing-it-out-35/) | Dan Guido, Josselin Feist | Jan 2019 | Ethereum's failed EIP-1283 |
-| [Risky Business](https://risky.biz/RB526/) | JP Smith | Jan 2019 | Post-quantum cryptography in CTFs |
+| [Risky Business](https://risky.biz/RB526/) | JP Smith | Jan 2019 | Post-quantum crypto in CTFs |
 | [Absolute AppSec 37](https://www.youtube.com/watch?v=beGo7l0u5cY) | Stefan Edwards | Nov 2018 | Programming languages,  symbex |
 | [Risky Business 510](https://risky.biz/RB510/) | Lauren Pearl | Aug 2018 | Open source security engineering |
-| [Absolute AppSec 34](https://www.youtube.com/watch?v=gtikYoT6vKc) | Stefan Edwards | Oct 2018 | Security testing, blockchain software |
-| [Zero Knowledge 16](https://www.zeroknowledge.fm/16) | JP Smith | Mar 2018 | Smart contracts security audits |
-| [Risky Business 488](https://risky.biz/RB488/) | JP Smith | Feb 2018 | Smart contract testing with Manticore |
+| [Absolute AppSec 34](https://www.youtube.com/watch?v=gtikYoT6vKc) | Stefan Edwards | Oct 2018 | Security testing, blockchain |
+| [Zero Knowledge 16](https://www.zeroknowledge.fm/16) | JP Smith | Mar 2018 | Smart contract security |
+| [Risky Business 488](https://risky.biz/RB488/) | JP Smith | Feb 2018 | Smart contract testing w/ Manticore |
 | [Risky Business 474](https://risky.biz/RB474/) | Dan Guido | Oct 2017 | How to engineer secure software |
 | [Georgian Partners 47](https://georgianpartners.com/the-problem-with-the-tor-network-and-commercial-vpns/) | Dan Guido | May 2017 | [AlgoVPN](https://blog.trailofbits.com/2016/12/12/meet-algo-the-vpn-that-works/) and Tor |
 | [VUC 643](https://www.youtube.com/watch?v=r_FV-uHYDgs) | Dan Guido | Apr 2017 | [AlgoVPN](https://blog.trailofbits.com/2016/12/12/meet-algo-the-vpn-that-works/) |
@@ -168,23 +203,68 @@
 
 ## Security Reviews
 
-Companies that have allowed us to speak about our work with them can be found here.
+Companies that have allowed us to speak about our work can be found here. Many more remain confidential.
+
+### Technology products
 
 | Product | Review Date | Level of Effort | Deliverables | Announcement |
 | --- | --- | --- | --- | --- |
+| [SecureDrop](https://freedom.press/) | Dec 2020 | 8 person-weeks | [Security Review](reviews/SecureDropWorkstation.pdf) | [2nd audit of SecureDrop Workstation](https://securedrop.org/news/second-independent-audit-of-securedrop-workstation-completed/) |
+| [Citizen Browser](https://themarkup.org/) | Dec 2020 | 3 person-days | | [How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)|
+| [Azure Sphere](https://azure.microsoft.com/en-us/services/azure-sphere/) | Jun 2020 | 12 person-weeks | | [Azure Sphere 20.07 Security Enhancements](https://techcommunity.microsoft.com/t5/internet-of-things/azure-sphere-20-07-security-enhancements/ba-p/1548973) |
+| [Zoom](https://zoom.us/) | May 2020 | 9 person-weeks | | [90 Days Done, What’s Next for Zoom](https://blog.zoom.us/ceo-report-90-days-done-whats-next-for-zoom/)
+| [Secure Transport](https://www.westerndigital.com/) | Apr 2020 | 4 person-weeks | |
+| [ZeroTier 2.0](https://www.zerotier.com/) | Mar 2020 | 2 person-weeks | [Security Review](reviews/ZeroTierProtocol.pdf) | [ZeroTier](https://mobile.twitter.com/zerotier/status/1314343535303446531) |
+| [Standard Notes](https://standardnotes.org/) | Mar 2020 | 1 person-week | [Security Review](reviews/StandardNotes.pdf) | [Standard Notes Completes Crypto Audit](https://blog.standardnotes.org/standard-notes-security-audits-2021/)
 | [Voatz](https://voatz.com/) | Feb 2020 | 12 person-weeks | [Security Review](reviews/voatz-securityreview.pdf), [Threat Model](reviews/voatz-threatmodel.pdf) | [Voatz](https://blog.voatz.com/?p=1287), [Tusk](https://mobilevoting.org/2020/03/a-note-on-security/)
 | [Voice](https://block.one/) | Jan 2020 | 4 person-weeks |  |
-| [SweetB](https://www.westerndigital.com/) | Jan 2020 | 4 person-weeks |  |
-| [Kubernetes](https://kubernetes.io/) | May 2019 | 12 person-weeks | [Security Review](https://github.com/trailofbits/audit-kubernetes/blob/master/reports/Kubernetes%20Security%20Review.pdf), [Threat Model](https://github.com/trailofbits/audit-kubernetes/blob/master/reports/Kubernetes%20Threat%20Model.pdf), [Whitepaper](https://github.com/trailofbits/audit-kubernetes/blob/master/reports/Kubernetes%20White%20Paper.pdf) | [Google](https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-security-audit-what-gke-and-anthos-users-need-to-know), [CNCF](https://www.helpnetsecurity.com/2019/08/12/kubernetes-security-matures/)
-| [SanDisk X600](https://www.westerndigital.com/) | May 2019 | 6 person-weeks | [Security Review](reviews/sandiskx600.pdf) | [Western Digital](https://www.westerndigital.com/support/productsecurity/wdc-19006-sandisk-x600-sata-ssd)
+| [Sweet B](https://github.com/westerndigitalcorporation/sweet-b) | Jan 2020 | 4 person-weeks | [Security Review](reviews/SweetB.pdf) | [Western Digital](https://www.westerndigital.com/company/newsroom/press-releases/2020/2020-09-03-western-digital-sets-a-new-standard-in-data-protection) |
+| [Azure Sphere](https://azure.microsoft.com/en-us/services/azure-sphere/) | Jun 2019 | 12 person-weeks |  |  |
+| [SanDisk X600](https://www.westerndigital.com/) | May 2019 | 6 person-weeks | [Security Review](reviews/sandiskx600.pdf) | [Multiple vulnerabilities in SanDisk X600](https://www.westerndigital.com/support/productsecurity/wdc-19006-sandisk-x600-sata-ssd)
 | [Project Callisto](https://www.projectcallisto.org/) | Aug 2018 | 5 person-weeks |
 | [zlib](https://www.zlib.net/) | Sep 2016 | 1 person-week | [Security Review](reviews/zlib.pdf)|
 
-### Ethereum Smart Contracts
+### Cloud-native
+
+| Product | Review Date | Level of Effort | Deliverables | Announcement |
+| --- | --- | --- | --- | --- |
+| [Consul](https://www.consul.io/) | Oct 2020 | 10 person-weeks |  |
+| [Nomad](https://www.nomadproject.io/) | Aug 2020 | 6 person-weeks |  |
+| [Helm](https://helm.sh/) | Aug 2020 | 4 person-weeks | |
+| [Terraform](https://www.hashicorp.com/products/terraform/) | Mar 2020 | 6 person-weeks |  |
+| [OPA](https://github.com/open-policy-agent/gatekeeper) | Mar 2020 | 2 person-weeks | |
+| [Vault](https://www.hashicorp.com/products/vault/) | Feb 2020 | 12 person-weeks |  |
+| [etcd](https://etcd.io/) | Jan 2020 | 4 person-weeks | [Security Review](reviews/etcd.pdf) | [CNCF](https://www.cncf.io/blog/2020/08/05/etcd-security-audit/) |
+| [Rook](https://github.com/rook/rook/tree/release-1.1) | Dec 2019 | 2 person-weeks | [Security Review](reviews/rook.pdf) | [CNCF](https://www.cncf.io/announcements/2020/10/07/cloud-native-computing-foundation-announces-rook-graduation/)
+| [Kubernetes](https://kubernetes.io/) | May 2019 | 12 person-weeks | [Security Review](https://github.com/trailofbits/audit-kubernetes/blob/master/reports/Kubernetes%20Security%20Review.pdf), [Threat Model](https://github.com/trailofbits/audit-kubernetes/blob/master/reports/Kubernetes%20Threat%20Model.pdf), [Whitepaper](https://github.com/trailofbits/audit-kubernetes/blob/master/reports/Kubernetes%20White%20Paper.pdf) | [Google](https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-security-audit-what-gke-and-anthos-users-need-to-know), [CNCF](https://www.helpnetsecurity.com/2019/08/12/kubernetes-security-matures/)
+
+### Smart contracts
 
 | Product | Review Date | Level of Effort | Announcement |
 | --- | --- | --- | --- |
-| [Hegic](https://www.hegic.co/) | Apr 2020 | [3 person-days](reviews/hegic-summary.pdf) | |
+| [C.R.E.A.M.](https://app.cream.finance/) | Jan 2021 | [1 person-week](reviews/CREAMSummary.pdf) | |
+| [LUSD](https://www.liquity.org/) | Dec 2020 | [8 person-weeks](reviews/Liquity.pdf) | |
+| [Origin Dollar](https://www.ousd.com/) | Nov 2020 | [4 person-weeks](reviews/OriginDollar.pdf) | [Origin Dollar Relaunches](https://medium.com/originprotocol/origin-dollar-ousd-relaunches-to-offer-hassle-free-defi-returns-b8ee0c601dad) |
+| [wXTZ](https://www.stakerdao.com/) | Nov 2020 | [4 person-weeks](reviews/wXTZ.pdf) | |
+| [wALGO](https://www.stakerdao.com/) | Nov 2020 | [4 person-weeks](reviews/wALGO.pdf) | |
+| [Hermez](https://iden3.io/) | Nov 2020 | [4 person-weeks](reviews/hermez.pdf) | [Hermez Second Audit, by Trail of Bits](https://blog.hermez.io/hermez-second-audit-by-trail-of-bits/) |
+| [Nervos](https://www.nervos.org/)| Oct 2020 | 6 person-weeks | |
+| [OVM](https://optimism.io/) | Oct 2020 | 6 person-weeks | |
+| [DODO](https://dodoex.io/) | Sep 2020 | [3 person-weeks](reviews/dodo.pdf) | |
+| [Yield Protocol](https://yield.is/Yield.pdf) | Aug 2020 | [6 person-weeks](reviews/YieldProtocol.pdf) | |
+| [DeFiner](https://definer.org/) | Aug 2020 | 1 person-week | |
+| [Smart Pool](https://balancer.finance/) | Aug 2020 | 1 person-week | |
+| [Argent](https://www.argent.xyz/) | Aug 2020 | 4 person-weeks | |
+| [MYKEY](https://mykey.org/en) | Jul 2020 | 4 person-weeks | |
+| [CurveDAO](https://dao.curve.fi/) | Jul 2020 | [6 person-weeks](reviews/CurveDAO.pdf) | |
+| [Amp](https://amptoken.org/) | Jul 2020 | [3 person-weeks](reviews/amp.pdf) | |
+| [Federated Bridge](https://www.rsk.co/) | Jul 2020 | 1 person-week | |
+| [dForce dToken](https://dforce.network/) | Jul 2020 | [2 person-weeks](reviews/dtoken.pdf) | |
+| [Dexter](https://dexter.exchange/) | Jun 2020 | [4 person-weeks](reviews/dexter.pdf) | |
+| [QTUM](https://qtum.org/en) | Apr 2020 | [3 person-days](reviews/qtum_loa.pdf) | |
+| [Hegic](https://www.hegic.co/) | Apr 2020 | [3 person-days](reviews/hegic-summary.pdf) |  |
+| [Golem Network](https://golem.network/) | Mar 2020 | 2 person-weeks |  |
+| [Reddit](https://www.reddit.com/community-points/) | Mar 2020 | 1 person-week | [A New Frontier](https://www.reddit.com/community-points/) |
 | [Compound](https://compound.finance/) | Feb 2020 | [2 person-weeks](reviews/compound-governance.pdf) |  |
 | [Chai](https://chai.money/) | Feb 2020 | [2 person-days](reviews/chai-loa.pdf) | |
 | [WorkLock](https://www.nucypher.com/) | Jan 2020 | [2 person-weeks](reviews/WorkLock-Summary.pdf) | [WorkLock Security Audit](https://blog.nucypher.com/worklock-security-audit/) |
@@ -218,7 +298,7 @@ Companies that have allowed us to speak about our work with them can be found he
 | [Origin Protocol](https://www.originprotocol.com/en) | Nov 2018 | [4 person-weeks](reviews/origin.pdf) | [How We Approach Security at Origin](https://medium.com/originprotocol/the-results-of-our-smart-contract-audit-with-trail-of-bits-and-how-we-approach-security-at-origin-175cc1646d71)
 | [Paxos Standard](https://www.paxos.com/standard/) | Oct 2018 | [4 person-weeks](reviews/paxos.pdf) |
 | [Basecoin](https://www.basis.io/) | Oct 2018 | [12 person-weeks](reviews/basis.pdf) |
-| [Compound](https://compound.finance/) | Sep 2018 | 12 person-weeks | [Compound launches money markets for Ethereum assets](https://medium.com/compound-finance/compound-launches-money-markets-for-ethereum-assets-f50920f04488)
+| [Compound](https://compound.finance/) | Sep 2018 | 12 person-weeks | [Compound launches money markets for Ethereum](https://medium.com/compound-finance/compound-launches-money-markets-for-ethereum-assets-f50920f04488)
 | [NuCypher](https://www.nucypher.com/) | Aug 2018 | [12 person-weeks](reviews/nucypher.pdf) | [Security audits: round 1](https://blog.nucypher.com/security-audits--round-1--3/) |
 | [CENTRE](https://www.centre.io/) | Jul 2018 | 4 person-weeks | [Designing an upgradeable Ethereum contract](https://medium.com/centre-blog/designing-an-upgradeable-ethereum-contract-3d850f637794)
 | [Bloom](https://bloom.co/) | Jul 2018 | 1 person-week | [Bloom development update](https://blog.hellobloom.io/bloom-development-update-mainnet-launch-blockchain-ux-improvements-open-source-developer-c8ddc194fe83)
@@ -227,17 +307,40 @@ Companies that have allowed us to speak about our work with them can be found he
 | [Golem](https://golem.network/) | Apr 2018 | [4 person-weeks](reviews/golem.pdf) | [Smart contracts: audit report](https://medium.com/golem-project/smart-contracts-audit-report-ad41fdd5085b)
 | [LivePeer](https://livepeer.org/) | Mar 2018 | [4 person-weeks](reviews/livepeer.pdf) | [Livepeer smart contract security audit #1 results](https://medium.com/livepeer-blog/livepeer-smart-contract-security-audit-1-results-631c4d7d98a4)
 | [DappHub](https://dapphub.com/) | Dec 2017 | [8 person-weeks](reviews/dapphub.pdf) |
-| [MakerDAO Sai](https://makerdao.com/en/) | Oct 2017 | [8 person-weeks](reviews/sai.pdf) | [Single-collateral Dai source code and security reviews](https://medium.com/makerdao/single-collateral-dai-source-code-and-security-reviews-523e1a01a3c8)
+| [MakerDAO Sai](https://makerdao.com/en/) | Oct 2017 | [8 person-weeks](reviews/sai.pdf) | [Single-collateral Dai security reviews](https://medium.com/makerdao/single-collateral-dai-source-code-and-security-reviews-523e1a01a3c8)
 | [Omega One](https://dark.omega.one/) | Aug 2017 | 6 person-weeks | |
 
-### Blockchain Protocols and Software
+### Blockchain protocols and software
 
 | Product | Review Date | Level of Effort | Announcement |
 | --- | --- | --- | --- |
+| [Teller Protocol](https://www.teller.finance/) | Nov 2020 | 4 person-weeks | |
+| [Highway Consensus](https://casperlabs.io/en/) | Nov 2020 | [4 person-weeks](reviews/CasperLabsHighwayProtocol.pdf) | [ToB Audit of the Casper Highway Protocol](https://blog.casperlabs.io/trail-of-bits-security-audit-casper-highway-protocol/) |
+| [Zerion SDK](https://zerion.io/) | Nov 2020 | 4 person-weeks | |
+| [MobileCoin BFT](https://www.mobilecoin.com/) | Oct 2020 | 4 person-weeks | |
+| [Graph Protocol](https://thegraph.com/) | Oct 2020 | 3 person-weeks | |
+| [Stacks V2](https://www.blockstack.org/) | Sep 2020 | 6 person-weeks | |
+| [Prysm](https://prysmaticlabs.com/) | Sep 2020 | 6 person-weeks | |
+| [ETH2.0 Deposit CLI](https://ethereum.org/en/) | Aug 2020 | [4 person-weeks](reviews/ETH2DepositCLI.pdf) |
+| [VRFs](https://chain.link/) | Aug 2020 | 2 person-weeks | |
+| [MobileCoin](https://www.mobilecoin.com/) | Aug 2020 | 4 person-weeks | |
+| [Ren](https://renproject.io/) | Aug 2020 | [4 person-weeks](reviews/renvm.pdf) | [August Development Update](https://medium.com/@loong/4ce9bb0fb98b) |
+| [Meld Gold](https://meld.gold/) | Jul 2020 | 2 person-weeks | |
+| [Ledger Filecoin](https://protocol.ai/) | Jul 2020 | [2 person-weeks](reviews/LedgerFilecoin.pdf) | | 
+| [Arbitrum](https://offchainlabs.com/) | Jul 2020 | 6 person-weeks | |
+| [Symbol](https://symbolplatform.com/) | Jul 2020 | [4 person-weeks](reviews/Symbol.pdf) | [Symbol from NEM completes Trail of Bits Security Audit](https://symbolplatform.com/latest/symbol-from-nem-completes-trail-of-bits-security-audit/) |
+| [Zcoin](https://zcoin.io/) | Jul 2020 | [2 person-weeks](reviews/zcoin-lelantus-summary.pdf) | [Lelantus Cryptographic Library Audit Results](https://zcoin.io/lelantus-cryptographic-library-audit-results/) |
+| [Magma](https://magmawallet.com/) | Jun 2020 | [1 person-week](reviews/MagmaWallet.pdf) | |
+| [Lighthouse](https://lighthouse.sigmaprime.io/) | Jun 2020 | 4 person-weeks | |
+| [Matic](https://matic.network/) | Jun 2020 | 4 person-weeks |  |
+| [tBTC](https://thesis.co/) | May 2020 | [6 person-weeks](reviews/thesis-summary.pdf) |  |
+| [Chainlink Flux](https://chain.link/) | May 2020 | 4 person-weeks |  |
+| [Zcash](https://electriccoin.co/) | Apr 2020| [3 person-weeks](reviews/Zcash2.pdf) | [Heartwood security assessment results](https://electriccoin.co/blog/heartwood-security-assessment-turns-up-no-major-issues/) |
+| [Elrond](https://elrond.com/) | Mar 2020 | 6 person-weeks |  |
 | [EOSIO SDK](http://block.one/) | Jan 2020 | 4 person-weeks |  |
 | [Pixel](https://www.algorand.com/) | Dec 2019 | 4 person-weeks |  |
 | [Paymail Protocol](https://nchain.com/en/) | Nov 2019 | 7 person-weeks |  |
-| [Zcash](https://electriccoin.co/) | Nov 2019 | [6 person-weeks](reviews/Zcash.pdf) | [Security assessments: NU3 specs, Blossom, and Sapling](https://electriccoin.co/blog/security-assessments-nu3-specifications-blossom-implementation-and-sapling-documentation/)|
+| [Zcash](https://electriccoin.co/) | Nov 2019 | [6 person-weeks](reviews/Zcash.pdf) | [NU3, Blossom, and Sapling security reviews](https://electriccoin.co/blog/security-assessments-nu3-specifications-blossom-implementation-and-sapling-documentation/)|
 | [Zcash](https://electriccoin.co/) | Nov 2019 | [6 person-weeks](reviews/ZcashWP.pdf) |  |
 | [NEAR Protocol](https://nearprotocol.com/) | Nov 2019 | 8 person-weeks |  |
 | [Status-go](https://status.im/) | Oct 2019 | 9 person-weeks |  |
@@ -250,7 +353,7 @@ Companies that have allowed us to speak about our work with them can be found he
 | [Blockchain.com](https://www.blockchain.com/) | Aug 2019 | 4 person-weeks |  |
 | [RandomX](https://www.arweave.org/) | Jun 2019 | [2 person-weeks](reviews/arweave-randomx.pdf) | [Monero and Arweave to Validate RandomX](https://www.prnewswire.com/news-releases/monero-and-arweave-to-validate-the-proof-of-work-algorithm-randomx-300861697.html) |
 | [ZecWallet](https://github.com/ZcashFoundation/zecwallet) | Apr 2019 | [2 person-weeks](reviews/zecwallet.pdf) | |
-| [Loom](https://loomx.io/) | May 2019 | 10 person-weeks | [The Loom SDK Q1 2019 Security Audit is now complete!](https://twitter.com/loomnetwork/status/1126748703530766336) |
+| [Loom](https://loomx.io/) | May 2019 | 10 person-weeks | [Loom SDK Q1 2019 Security Audit](https://twitter.com/loomnetwork/status/1126748703530766336) |
 | [Algorand](https://www.algorand.com/) | Mar 2019 | 14 person-weeks | [Success and momentum of Algorand](https://medium.com/algorand/success-and-momentum-of-algorand-the-platform-technology-for-the-borderless-economy-35b22cae63c6) |
 | [Centrifuge](https://centrifuge.io/) | Mar 2019 | 5 person-weeks | |
 | [Tendermint](https://interchain.io/) | Mar 2019 | 12 person-weeks | |
@@ -260,7 +363,7 @@ Companies that have allowed us to speak about our work with them can be found he
 | [Building Blocks](https://innovation.wfp.org/project/building-blocks) | Aug 2018 | 7 person-weeks | [UN WFP uses Ethereum to aid 100,000 refugees](https://www.parity.io/un-world-food-programme-uses-parity-ethereum-to-aid-100-000-refugees/) |
 | [Parity](https://www.parity.io/) | Jul 2018 | [12 person-weeks](reviews/parity.pdf) | [Parity completes Trail of Bits security review](https://medium.com/paritytech/parity-completes-trail-of-bits-security-review-bda9d48fd3d4)
 | [Tezori](https://github.com/Cryptonomic/Tezori) | Jul 2018 | 2 person-weeks | [Thanks to @trailofbits for their security review](https://twitter.com/CryptonomicTech/status/1015686612641042434)
-| [Web3](https://web3.foundation/) | Mar 2018 | [2 person-weeks](https://blog.trailofbits.com/2018/11/27/10-rules-for-the-secure-use-of-cryptocurrency-hardware-wallets/) | [W3F and TOB release hardware wallet security guidance](https://medium.com/web3foundation/w3f-and-trail-of-bits-release-guidance-for-secure-use-of-hardware-wallets-b12f14182db7)
+| [Web3](https://web3.foundation/) | Mar 2018 | [2 person-weeks](https://blog.trailofbits.com/2018/11/27/10-rules-for-the-secure-use-of-cryptocurrency-hardware-wallets/) | [W3F and TOB hardware wallet security guidance](https://medium.com/web3foundation/w3f-and-trail-of-bits-release-guidance-for-secure-use-of-hardware-wallets-b12f14182db7)
 | [RSKj](https://www.rsk.co/) | Nov 2017 | [6 person-weeks](reviews/RSKj.pdf) | [RSK security audit results](https://www.rsk.co/noticia/rsk-security-audit-results/)
 
 ## Workshops
