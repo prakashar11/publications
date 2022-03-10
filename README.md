@@ -10,7 +10,7 @@
   * [Mobile security](#mobile-security)
   * [Programming](#programming)
   * [Side channels](#side-channels)
-  * [Threat analysis](#threat-analysis)
+  * [Threat analysis & malware](#threat-analysis--malware)
 * [Datasets](#datasets)
 * [Podcasts](#podcasts)
 * [Security Reviews](#security-reviews)
@@ -24,6 +24,9 @@
 
 | Paper Title | Venue | Publication Date |
 | --- | --- | --- |
+| [Evaluating Static Analysis Tools via Differential Mutation](papers/qrs21.pdf) |  [QRS 2021](https://qrs21.techconf.org/) | Dec 2021 |
+| [echidna-parade: Diverse multicore smart contract fuzzing](papers/echidna-parade_issta21.pdf) | [ISSTA 2021](https://conf.researchr.org/home/issta-2021) | July 2021 |
+| [Differential analysis of x86-64 instruction decoders](papers/mishegos-langsec2021.pdf) |  [LangSec 2021](https://langsec.org/spw21/) | May 2021 |
 | [Echidna: effective, usable, and fast fuzzing for smart contracts](papers/echidna_issta2020.pdf) | [ISSTA 2020](https://conf.researchr.org/home/issta-2020) | July 2020 |
 | [Automated Grammar Extraction via Semantic Labeling of Parsers](presentations/Semantic%20Labeling%20of%20Parsers) | [LangSec 2020](http://spw20.langsec.org/) | May 2020 |
 | [What are the Actual Flaws in Important Smart Contracts?](papers/smart_contract_flaws_fc2020.pdf) | [FC 2020](https://fc20.ifca.ai/program.html) | Feb 2020 |
@@ -42,10 +45,11 @@
 
 | Presentation Title | Author(s) | Year |
 | --- | --- | --- |
+| [Differential analysis of x86-64 instruction decoders](presentations/Differential%20analysis%20of%20x86-64%20decoders) | William Woodruff, Niki Carroll, Sebastiaan Peters | 2021 |
 | [How to find bugs when (ground) truth isn't real](presentations/Differential%20fuzzing,%20or_%20how%20to%20find%20bugs%20when%20%28ground%29%20truth%20isn't%20real) | William Woodruff | 2020 |
 | [The Treachery of Files and Two New Tools that Tame It](presentations/The%20Treachery%20of%20Files) | Evan Sultanik | 2019 |
 | [Symbolically Executing a Fuzzy Tyrant](presentations/Symbolically%20Executing%20a%20Fuzzy%20Tyrant) | Stefan Edwards | 2019 |
-| [Kernel space fault injection with KRF](presentations/It%27s%20coming%20from%20inside%20the%20house%3A%20kernel%20space%20fault%20injection%20with%20KRF) | William Woodruff | 2019 |
+| [Kernel space fault injection with KRF](presentations/Kernel%20space%20fault%20injection%20with%20KRF) | William Woodruff | 2019 |
 | [Binary Symbolic Execution With KLEE-Native](presentations/Binary%20Symbolic%20Execution%20With%20KLEE-Native) | Sai Vegasena | 2019 |
 | [Going sicko mode on the Linux Kernel](presentations/Going%20sicko%20mode%20on%20the%20Linux%20Kernel) | William Woodruff | 2019 |
 | [Vulnerability Modeling with Binary Ninja](presentations/Vulnerability%20Modeling%20with%20Binary%20Ninja) | Josh Watson | 2018 |
@@ -58,12 +62,14 @@
 | [The Smart Fuzzer Revolution](presentations/The%20Smart%20Fuzzer%20Revolution) | Dan Guido | 2016 |
 | [Making a scaleable automated hacking system](presentations/Cyber%20Grand%20Challenge) | Artem Dinaburg | 2016 |
 | [Cyberdyne - Automatic bug-finding at scale](presentations/Cyber%20Grand%20Challenge) | Peter Goodman | 2016 |
-| [McSema - Static translation of x86 instructions to LLVM IR](presentations/McSema%20-%20Static%20Translation%20of%20x86%20instructions%20to%20LLVM%20IR) | Andrew Ruef, Artem Dinaburg | 2014 |
+| [McSema: Static translation of x86 to LLVM IR](presentations/McSema%20-%20Static%20Translation%20of%20x86%20instructions%20to%20LLVM%20IR) | Andrew Ruef, Artem Dinaburg | 2014 |
 
 ### Blockchain
 
 | Presentation Title | Author(s) | Year |
 | --- | --- | --- |
+| [Building a Practical Static Analyzer for Smart Contracts](presentations/Building%20a%20Practical%20Static%20Analyzer%20for%20Smart%20Contracts) | Josselin Feist | 2021 |
+| [Testing and Verifying Smart Contracts: From Theory to Practice](presentations/Testing%20and%20Verifying%20Smart%20Contracts:%20From%20Theory%20to%20Practice) | Josselin Feist | 2021 |
 | [Safely integrating with ERC20 tokens](presentations/Safely%20integrating%20with%20ERC20%20tokens) | Josselin Feist | 2021 |
 | [Detecting transaction replacement attacks with Manticore](presentations/Detecting%20transaction%20replacement%20attacks%20with%20Manticore) | Sam Moelius | 2020 |
 | [Fantastic Bugs and How to Squash Them; or, the Crimes of Solidity](presentations/Anatomy%20of%20an%20unsafe%20programming%20language) | Evan Sultanik | 2019 |
@@ -104,6 +110,7 @@
 
 | Presentation Title | Author(s) | Year |
 | --- | --- | --- |
+| [JWTs, and why they suck](presentations/JWTs,%20and%20why%20they%20suck) | Rory M | 2021 |
 | [The Joy of Pwning](presentations/The%20Joy%20of%20Pwning) | Sophia D'Antoine | 2017 |
 | [How to CTF - Getting and using Other People's Computers (OPC)](presentations/How%20to%20CTF%20-%20Getting%20and%20Using%20OPC) | Jay Little | 2014 |
 | [Low-level Security](presentations/Low-level%20Security) | Andrew Ruef | 2014 |
@@ -122,6 +129,7 @@
 
 | Presentation Title | Author(s) | Year |
 | --- | --- | --- |
+| [Exploiting Machine Learning Pickle Files](presentations/Never%20a%20Dill%20Moment:%20Exploiting%20Machine%20Learning%20Pickle%20Files) | Carson Harmon, Evan Sultanik, Jim Miller, Suha Hussain | 2021 |
 | [PrivacyRaven: Comprehensive Privacy Testing for Deep Learning](presentations/PrivacyRaven:%20Comprehensive%20Privacy%20Testing%20for%20Deep%20Learning) | Suha Hussain | 2020 |
 
 ### Mobile security
@@ -148,10 +156,11 @@
 | [Hardware side channels in virtualized environments](presentations/Hardware%20side%20channels%20in%20virtualized%20environments) | Sophia D'Antoine | 2015 |
 | [Exploiting Out-of-Order Execution](presentations/Exploiting%20Out-of-Order%20Execution) | Sophia D'Antoine | 2015 |
 
-### Threat analysis
+### Threat analysis & malware
 
 | Presentation Title | Author(s) | Year |
 | --- | --- | --- |
+| [Peeling back the 'Shlayers' of macOS Malware](presentations/Peeling%20back%20the%20Shlayers%20of%20macOS%20Malware) | Josh Watson, Erika Noerenberg | 2019 | 
 | [The Exploit Intelligence Project Revisited](presentations/The%20Exploit%20Intelligence%20Project) | Dan Guido | 2013 |
 
 ## Datasets
@@ -164,7 +173,11 @@
 
 | Podcast | Guest | Date | Topic(s) |
 | --- | --- | --- | --- |
-| [How to onboard yourself as the first People Leader](https://employeecycle.com/podcast/how-to-onboard-yourself-as-the-first-people-leader-with-hannah-hanks/) | Hannah Hanks | Mar 2021 | People Operations |
+| [Risky Business 652](https://risky.biz/RB652/) | Dan Guido | Jan 2022 | Zero-knowledge proofs |
+| [Secureum Safecast #3](https://www.youtube.com/watch?v=Ycj0ZVWof5E) | Josselin Feist | Nov 2021| Blockchain security |
+| [Secureum Safecast #2](https://www.youtube.com/watch?v=NSzniIpPYdw) | Dan Guido | Oct 2021 | Blockchain security |
+| [Press Freedom Foundation](https://www.twitch.tv/videos/1102962356) | Dan Guido | Jul 2021 | Mobile security and iVerify |
+| [Employee Cycle](https://employeecycle.com/podcast/how-to-onboard-yourself-as-the-first-people-leader-with-hannah-hanks/) | Hannah Hanks | Mar 2021 | First PeopleOps hire |
 | [Risky Business 614](https://risky.biz/RB614/) | Dan Guido | Feb 2021 | iVerify |
 | [Building Better Systems #6](https://www.youtube.com/watch?v=wT-AmR7wtI8) | Dan Guido | Jan 2021 | What blockchain got right |
 | [WCBS 880](https://www.radio.com/podcasts/wcbs-880-small-business-spotlight-32986/pandemic-gap-year-leads-to-career-development-322317063) | Dan Guido | Sep 2020 | Gap years and intern hiring |
@@ -209,12 +222,22 @@ Companies that have allowed us to speak about our work can be found here. Many m
 
 | Product | Review Date | Level of Effort | Deliverables | Announcement |
 | --- | --- | --- | --- | --- |
-| [VGS Proxy](https://www.verygoodsecurity.com/) | Apr 2021 | 4 person-weeks | |
-| [Nightwatch Application](https://nightwatchjs.org/) | Feb 2021 | 4 person-weeks | |
-| [CircleCI Server 3.0](https://circleci.com/) | Jan 2021 | 6 person-weeks | |
+| [osquery](https://osquery.io/) | Jan 2022 | 6 person-weeks | |
+| [Redjack](https://www.redjack.com/) | Dec 2021 | 2 person-weeks | |
+| [DigitalOcean Cloud](http://cloud.digitalocean.com/) | Nov 2021 | 12 person-weeks | | 
+| [Doppler](https://www.doppler.com/) | Sept 2021 | 4 person-weeks | |
+| [Datadog Agent](https://www.datadoghq.com/) | Aug 2021 | 8 person-weeks | |
+| [Appian](https://appian.com/) | Jun 2021 | 4 person-weeks | | |
+| [Cashero-2.0](https://www.cashero.com/) | Jun 2021 | 4 person-weeks | | |
+| [Linux Kernel](https://kernelci.org/about/) | Apr 2021 | 2 person-weeks | [Policy Review](reviews/LinuxKernelReleaseSigning.pdf) | [A Review of the Linux Kernel’s Release Signing and Key Management Policies](https://ostif.org/a-review-of-the-linux-kernels-release-signing-and-key-management-policies/) |
+| [Orbit](https://fleetdm.com/) | Apr 2021 | 1 person-week | | |
+| [VGS Proxy](https://www.verygoodsecurity.com/) | Apr 2021 | 4 person-weeks | | |
+| [Skiff](https://www.skiff.org/) | Feb 2021 | 4 person-weeks | | |
+| [CircleCI Server 3.0](https://circleci.com/) | Jan 2021 | 6 person-weeks | | [Penetration testing at CircleCI](https://circleci.com/blog/penetration-testing-at-circleci/) |
 | [BitMEX](https://www.bitmex.com/) | Jan 2021 | 4 person-weeks | | |
 | [SecureDrop](https://freedom.press/) | Dec 2020 | 8 person-weeks | [Security Review](reviews/SecureDropWorkstation.pdf) | [2nd audit of SecureDrop Workstation](https://securedrop.org/news/second-independent-audit-of-securedrop-workstation-completed/) |
 | [Citizen Browser](https://themarkup.org/) | Dec 2020 | 3 person-days | | [How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)|
+| [Hey.com](https://www.hey.com/) | Jun 2020 | 1 person-week | [Security Review](reviews/Hey.pdf) | [Serious Security](https://www.hey.com/security/) |
 | [Azure Sphere](https://azure.microsoft.com/en-us/services/azure-sphere/) | Jun 2020 | 12 person-weeks | | [Azure Sphere 20.07 Security Enhancements](https://techcommunity.microsoft.com/t5/internet-of-things/azure-sphere-20-07-security-enhancements/ba-p/1548973) |
 | [Zoom](https://zoom.us/) | May 2020 | 9 person-weeks | | [90 Days Done, What’s Next for Zoom](https://blog.zoom.us/ceo-report-90-days-done-whats-next-for-zoom/)
 | [Secure Transport](https://www.westerndigital.com/) | Apr 2020 | 4 person-weeks | |
@@ -232,13 +255,19 @@ Companies that have allowed us to speak about our work can be found here. Many m
 
 | Product | Review Date | Level of Effort | Deliverables | Announcement |
 | --- | --- | --- | --- | --- |
-| [Argo](https://argoproj.github.io/) | Mar 2021 | 4 person-weeks | |
+| [CoreDNS](https://coredns.io/) | Jan 2022 | 4 person-weeks | | 
+| [Terrform Enterprise](https://www.terraform.io/) | Nov 2021 | 6 person-weeks | |
+| [Nomad Enterpprise](https://www.nomadproject.io/) | Nov 2021 | 6 person-weeks |  |
+| [Consul Enterprise](https://www.consul.io/) | Oct 2021 | 6 person-weeks |  |
+| [Vault Enterprise](https://www.vaultproject.io/) | Oct 2021 | 6 person-weeks |  |
+| [HashiCorp Cloud](https://cloud.hashicorp.com/) | Jun 2021 | 8 person-weeks | |
+| [Argo](https://argoproj.github.io/) | Mar 2021 | 4 person-weeks | [Security Review](reviews/argo-securityreview.pdf), [Threat Model](reviews/argo-threatmodel.pdf) |
 | [Terrform Cloud](https://www.terraform.io/cloud) | Jan 2021 | 6 person-weeks | |
 | [Consul](https://www.consul.io/) | Oct 2020 | 10 person-weeks |  |
 | [Nomad](https://www.nomadproject.io/) | Aug 2020 | 6 person-weeks |  |
-| [Helm](https://helm.sh/) | Aug 2020 | 4 person-weeks | |
+| [Helm](https://helm.sh/) | Aug 2020 | 4 person-weeks | [Security Review](reviews/Helm.pdf) | [Helm 2nd Security Audit](https://helm.sh/blog/helm-2nd-security-audit/) |
 | [Terraform](https://www.hashicorp.com/products/terraform/) | Mar 2020 | 6 person-weeks | |
-| [OPA](https://github.com/open-policy-agent/gatekeeper) | Mar 2020 | 2 person-weeks | |
+| [OPA](https://github.com/open-policy-agent/gatekeeper) | Mar 2020 | 2 person-weeks | [Security Review](reviews/OPAGatekeeper.pdf) | [Open Policy Agent (OPA) Graduation Proposal](https://github.com/cncf/toc/blob/main/proposals/graduation/opa.md) |
 | [Vault](https://www.hashicorp.com/products/vault/) | Feb 2020 | 12 person-weeks |  |
 | [etcd](https://etcd.io/) | Jan 2020 | 4 person-weeks | [Security Review](reviews/etcd.pdf) | [CNCF](https://www.cncf.io/blog/2020/08/05/etcd-security-audit/) |
 | [Rook](https://github.com/rook/rook/tree/release-1.1) | Dec 2019 | 2 person-weeks | [Security Review](reviews/rook.pdf) | [CNCF](https://www.cncf.io/announcements/2020/10/07/cloud-native-computing-foundation-announces-rook-graduation/)
@@ -248,8 +277,53 @@ Companies that have allowed us to speak about our work can be found here. Many m
 
 | Product | Review Date | Level of Effort | Announcement |
 | --- | --- | --- | --- |
-| [Warp Contracts](https://en.advancedblockchain.com/) | Apr 2021 | 6 person-weeks | |
-| [Uniswap V3](https://uniswap.org/blog/uniswap-v3/) | Mar 2021 | 10 person-weeks | |
+| [Advanced Blockchain](https://www.advancedblockchain.com/) | Feb 2022 | [6 person-weeks](reviews/AdvancedBlockchainQ12022.pdf) | |
+| [Beethoven X](https://beets.fi/#/) | Feb 2022 | [1 person-week](reviews/BeethovenXSummary.pdf) | |
+| [pSTAKE](https://persistence.one/) | Jan 2022 | 6 person-weeks | | 
+| [Primitive Finance](https://primitive.finance/) | Jan 2022 | 8 person-weeks | |
+| [Strips Finance](https://strips.finance/) | Jan 2022 | 8 person-weeks | |
+| [DeGate](https://degate.com/?en-US) | Dec 2021 | 4 person-weeks | |
+| [Cardstack](https://cardstack.com/) | Dec 2021 | 4 person-weeks | |
+| [Frax](https://frax.finance/) | Dec 2021 | 4 person-weeks | |
+| [Sherlock](https://www.sherlock.xyz/) | Dec 2021 | 4 person-weeks | |
+| [Advanced Blockchain](https://www.advancedblockchain.com/) | Nov 2021 | [6 person-weeks](reviews/AdvancedBlockchainQ42021.pdf) | |
+| [Maple](https://www.maple.finance/) | Nov 2021 | 4 person-weeks | |
+| [Opyn](https://www.opyn.co/) | Nov 2021 | [6 person-weeks](reviews/Opyn.pdf) | |
+| [StarkEx](https://starkware.co/) | Nov 2021 | 8 person-weeks | |
+| [Aave V3](https://aave.com/) | Nov 2021 | 4 person-weeks |  |
+| [Tokemak](https://www.tokemak.xyz/) | Oct 2021 | 3 person-weeks | |
+| [Fuji Fianance](https://app.fujidao.org/#/) | Oct 2021 | [6 person-weeks](reviews/FujiProtocol.pdf) | |
+| [V2 Vault](https://www.riskharbor.com/) | Oct 2021 | 4 person-weeks | |
+| [SpruceID](https://tezos.foundation/) | Oct 2021 | 12 person-weeks | |
+| [Yield V2](https://yield.is/) | Sept 2021 | [6 person-weeks](reviews/YieldV2.pdf) | |
+| [Hop Protocol V2](https://hop.exchange/) | Sept 2021 | 4 person-weeks | |
+| [Gro protocol](https://www.gro.xyz/) | Sept 2021 | 2 person-weeks | |
+| [Futureswap V4](https://www.futureswap.com/) | Sept 2021 | 6 person-weeks | |
+| [Golden Gate Library](https://layerzero.network/) | Sept 2021 | 1 person-week | |
+| [RocketPool](https://rocketpool.net/) | Aug 2021 | [5 person-weeks](reviews/RocketPool.pdf) | |
+| [AlphaX](https://alphafinance.io/) | Aug 2021 | 6 person-weeks | |
+| [Bug Bounty Platform](https://solidified.io/) | Aug 2021 | 8 person-weeks | |
+| [88mph V3](https://88mph.app/) | Aug 2021 | [6 person-weeks](reviews/88mph.pdf) | |
+| [Timeswap](https://timeswap.io/) | Jul 2021 | 2 person-weeks | |
+| [CompliFi](https://compli.fi/) | Jul 2021 | [6 person-weeks](reviews/CompliFi.pdf) | |
+| [Optics](https://celo.org/) | Jul 2021 | 2 person-weeks |  |
+| [xUDT](https://www.nervos.org/) | Jun 2021 | 2 person-weeks | | 
+| [Abyss Lockup](https://www.allnodes.com/) | Jun 2021 | 2 person-weeks | |
+| [Compli\Fi](https://compli.fi/) | Jun 2021 | 6 person-weeks | |
+| [Uniswap V3 Staker](https://uniswap.org/blog/uniswap-v3/) | Jun 2021 | 2 person-weeks | |
+| [Futureswap V3](https://www.futureswap.com/) | Jun 2021 | 6 person-weeks | |
+| [Chainlink](https://chain.link/) | Jun 2020 | 8 person-weeks |  |
+| [FlareFinance](https://flr.finance/) | Jun 2021 | 4 person-weeks | |
+| [Opyn Gamma](https://www.opyn.co/) | May 2021 | [6 person-weeks](reviews/Opyn-Gamma-Protocol.pdf) | |
+| [Syndicate](https://www.syndicateprotocol.org/) | May 2021 | 4 person-weeks | |
+| [Frax](https://frax.finance/) | May 2021 | [4 person-weeks](reviews/FraxFinance.pdf) | |
+| [FlareFinance](https://flr.finance/) | Apr 2021 | 3 person-weeks | |
+| [Yearn v2 Vaults](https://yearn.finance/) | Apr 2021 | [6 person-weeks](reviews/YearnV2Vaults.pdf) | |
+| [DFX Finance](https://dfx.finance/) | Apr 2021 | 6 person-weeks | |
+| [Open Oracle](https://chain.link/) | Apr 2021 | 2 person-weeks | |
+| [Tokemak](https://www.tokemak.xyz/) | Apr 2021 | 1 person-week | |
+| [Warp Contracts](https://en.advancedblockchain.com/) | Apr 2021 | [6 person-weeks](reviews/AdvancedBlockchain.pdf) |[Completion of Trail of Bits’ Audit](https://composablefi.medium.com/composable-announces-the-completion-of-trail-of-bits-audit-c46bd84333de) |
+| [Uniswap V3](https://uniswap.org/) | March 2021 | [10 person-weeks](reviews/UniswapV3Core.pdf) | [Introducing Uniswap V3](https://uniswap.org/blog/uniswap-v3/) |
 | [MC Dai](https://makerdao.com) | Mar 2021 | 6 person-weeks | |
 | [dForce Lending](https://dforce.network/) | Mar 2021 | 6 person-weeks | |
 | [Nervos -RSA](https://www.nervos.org/) | Mar 2021 | 4 person-weeks | | 
@@ -266,7 +340,7 @@ Companies that have allowed us to speak about our work can be found here. Many m
 | [wXTZ](https://www.stakerdao.com/) | Nov 2020 | [4 person-weeks](reviews/wXTZ.pdf) | |
 | [wALGO](https://www.stakerdao.com/) | Nov 2020 | [4 person-weeks](reviews/wALGO.pdf) | |
 | [Hermez](https://iden3.io/) | Nov 2020 | [4 person-weeks](reviews/hermez.pdf) | [Hermez Second Audit, by Trail of Bits](https://blog.hermez.io/hermez-second-audit-by-trail-of-bits/) |
-| [Nervos](https://www.nervos.org/)| Oct 2020 | 6 person-weeks | |
+| [Nervos SUDT](https://www.nervos.org/)| Oct 2020 | [6 person-weeks](reviews/NervosSUDT.pdf)| |
 | [OVM](https://optimism.io/) | Oct 2020 | 6 person-weeks | |
 | [DODO](https://dodoex.io/) | Sep 2020 | [3 person-weeks](reviews/dodo.pdf) | |
 | [Yield Protocol](https://yield.is/Yield.pdf) | Aug 2020 | [6 person-weeks](reviews/YieldProtocol.pdf) | |
@@ -332,24 +406,50 @@ Companies that have allowed us to speak about our work can be found here. Many m
 
 | Product | Review Date | Level of Effort | Announcement |
 | --- | --- | --- | --- |
+| [Minterest Finance](https://minterest.com/) | Jan 2022 | 6 person-weeks | |
+| [StarkPerpetual](https://starkware.co/starkex/) | Jan 2022 | 8 person-weeks | |
+| [Columbus-5](https://www.terra.money/) | Jan 2022 | 2 person-weeks | |
+| [Polkadex](https://www.polkadex.trade/) | Dec 2021 | 4 person-weeks | |
+| [ShardX](https://www.gemini.com/) | Dec 2021 | 2 person-weeks | |
+| [IBC Protocol](https://www.interchain.berlin/) | Dec 2021 | 4 person-weeks | |
+| [Threshold-DSA](https://anyswap.exchange/) | Nov 2021 | 6 person-weeks | |
+| [STAS SDK](https://www.taal.com/) | Oct 2021 | 4 person-weeks | |
+| [PolySign HSM](https://polysign.io/) | Oct 2021 | 6 person-weeks | |
+| [STAS-JS SDK](https://www.taal.com/#) | Sept 2021 | 4 person-weeks | |
+| [PINT](https://www.stakerdao.com/) | Sept 2021 | 4 person-weeks | |
+| [Qredo Blockchain](https://www.qredo.com/) | Sept 2021 | 6 person-weeks | |
+| [PolySign](https://www.polysign.io/) | Sept 2021 | 6 person-weeks | |
+| [Arbitrum](https://offchainlabs.com/) | Sept 2021 | 16 person-weeks | |
+| [ShardX](https://www.gemini.com/) | Aug 2021 | 4 person-weeks | |
+| [go-schnorrkel](https://chainsafe.io/) | Aug 2021 | 4 person-weeks | |
+| [THORChain](https://thorchain.org/) | Aug 2021 | 12 person-weeks | |
+| [Casper Web Wallet](https://casperlabs.io/) | Jul 2021 | [4 person-weeks](reviews/CasperLedger.pdf) | |
+| [Polkaswap](https://polkaswap.io/#/swap) | Jul 2021 | 6 person-weeks | |
+| [AElf](https://aelf.io/) | Jul 2021 | 4 person-weeks | | 
+| [CrossChain-Bridge](https://anyswap.exchange/bridge) | Jul 2021 | 8 person-weeks |
+| [AlephBFT](https://alephzero.org/) | Jun 2021 | 4 person-weeks | |
+| [Acala Network](https://acala.network/) | Jun 2021 | 4 person-weeks | |
+| [DFINITY](https://dfinity.org/) | May 2021 | [24 person-weeks](reviews/DFINITY.pdf) | | 
+| [Compound Chain](https://compound.finance/) | May 2021 | 6 person-weeks | |
 | [Flare Network](https://flare.xyz/) | Mar 2021 | 8 person-weeks | |
 | [Arbitrum V2](https://offchainlabs.com/) | Feb 2021 | 8 person-weeks | |
 | [Cheque Cell & ORU](https://www.nervos.org/) | Feb 2021 | 8 person-weeks | | 
-| [Fog Protocol](https://www.mobilecoin.com/) | Jan 2021 | 4 person-weeks | |
-| [Acala Network](https://acala.network/) | Jan 2021 | 6 person-weeks | |
+| [Fog Protocol](https://www.mobilecoin.com/) | Jan 2021 | [4 person-weeks](reviews/MobilecoinFog.pdf) | |
+| [Acala Network](https://acala.network/) | Jan 2021 | [6 person-weeks](reviews/AcalaNetwork.pdf) | |
 | [Bitcoin SV](https://nchain.com/) | Jan 2021 | 6 person-weeks |
 | [eFIL](https://www.gemini.com/efil) | Jan 2021 | 2 person-weeks | |
 | [Futureswap](https://www.futureswap.com/) | Jan 2021 | 2 person-weeks | |
+| [Tezori (T2)](https://github.com/Cryptonomic/Tezori) | Dec 2020 | [4 person-weeks](reviews/Tezori.pdf) | |
 | [Teller Protocol](https://www.teller.finance/) | Nov 2020 | 4 person-weeks | |
 | [Highway Consensus](https://casperlabs.io/en/) | Nov 2020 | [4 person-weeks](reviews/CasperLabsHighwayProtocol.pdf) | [ToB Audit of the Casper Highway Protocol](https://blog.casperlabs.io/trail-of-bits-security-audit-casper-highway-protocol/) |
 | [Zerion SDK](https://zerion.io/) | Nov 2020 | 4 person-weeks | |
-| [MobileCoin BFT](https://www.mobilecoin.com/) | Oct 2020 | 4 person-weeks | |
+| [MobileCoin BFT](https://www.mobilecoin.com/) | Oct 2020 | [4 person-weeks](reviews/MobileCoinBFT.pdf) | |
 | [Graph Protocol](https://thegraph.com/) | Oct 2020 | 3 person-weeks | |
 | [Stacks V2](https://www.blockstack.org/) | Sep 2020 | 6 person-weeks | |
 | [Prysm](https://prysmaticlabs.com/) | Sep 2020 | 6 person-weeks | |
 | [ETH2.0 Deposit CLI](https://ethereum.org/en/) | Aug 2020 | [4 person-weeks](reviews/ETH2DepositCLI.pdf) |
 | [VRFs](https://chain.link/) | Aug 2020 | 2 person-weeks | |
-| [MobileCoin](https://www.mobilecoin.com/) | Aug 2020 | 4 person-weeks | |
+| [MobileCoin](https://www.mobilecoin.com/) | Aug 2020 | [4 person-weeks](reviews/Mobilecoin.pdf) | |
 | [Ren](https://renproject.io/) | Aug 2020 | [4 person-weeks](reviews/renvm.pdf) | [August Development Update](https://medium.com/@loong/4ce9bb0fb98b) |
 | [Meld Gold](https://meld.gold/) | Jul 2020 | 2 person-weeks | |
 | [Ledger Filecoin](https://protocol.ai/) | Jul 2020 | [2 person-weeks](reviews/LedgerFilecoin.pdf) | | 
